@@ -2,10 +2,8 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import unidecode
+from pathlib import Path
 
-
-# CSS
-css_file = "../styles/template1_style.css"
 with open(css_file) as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
