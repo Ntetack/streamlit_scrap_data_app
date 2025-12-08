@@ -70,7 +70,7 @@ def data_ploting(df):
 # Sidebar
 st.sidebar.markdown("<h4>Available data</h4>", unsafe_allow_html=True)
 csv_files = [
-    ("Child clothes", Path(__file__).parent / "data" / "vetement-enfant"),
+    ("Child clothes", Path(__file__).parent / "data" / "vetement-enfant.csv"),
     ("Man clothes", "data/vetement-homme.csv"),
     ("Child shoes", "data/chaussure-enfant.csv"),
     ("Man shoes", "data/chaussure-homme.csv")
