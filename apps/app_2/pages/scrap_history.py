@@ -3,7 +3,8 @@ import pandas as pd
 import sqlite3
 import os
 
-css_file = "styles/template1_style.css"
+css_file = "/mount/src/streamlit_scrap_data_app/apps/app_2/styles/template1_style.css"
+
 with open(css_file) as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
