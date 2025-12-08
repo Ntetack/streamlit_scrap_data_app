@@ -1,7 +1,7 @@
 import streamlit as st
 
 # load css
-css_file = "styles/template1_style.css"
+css_path = Path(__file__).parent / "styles" / "template1_style.css"
 with open(css_file) as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
