@@ -1,4 +1,5 @@
 import streamlit as st
+from pathlib import Path
 
 # load css
 css_path = Path(__file__).parent / "styles" / "template1_style.css"
