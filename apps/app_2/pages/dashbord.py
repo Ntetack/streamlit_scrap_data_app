@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import unidecode
 from pathlib import Path
 
-with open(css_file) as f:
-    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+# load css
+css_file = Path(__file__).parent / "styles" / "template1_style.css"
 
 st.markdown("<h2>Dashboard</h2>", unsafe_allow_html=True)
 st.markdown("This shows short analysis on data available in our app.")
