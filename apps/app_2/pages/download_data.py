@@ -20,10 +20,10 @@ It contain product category such that clothes, shoes for children and men.
 # sidebar
 st.sidebar.markdown("<h4>Available data<h4>", unsafe_allow_html=True)
 csv_files = [
-    ("Child clothes", "data/vetement-enfant.csv"),
-    ("Man clothes", "data/vetement-homme.csv"),
-    ("Child shoes", "data/chaussure-enfant.csv"),
-    ("Man shoes", "data/chaussure-homme.csv")
+    ("Child clothes", Path(__file__).parent / "data" / "vetement-enfant.csv"),
+    ("Man clothes", Path(__file__).parent / "data" / "vetement-homme.csv"),
+    ("Child shoes", Path(__file__).parent / "data" / "chaussure-enfant.csv"),
+    ("Man shoes", Path(__file__).parent / "data" / "chaussure-homme.csv")
 ]
 
 menu_selection = st.sidebar.radio("Choose a dataset:", [name for name, _ in csv_files])
