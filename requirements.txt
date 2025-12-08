@@ -1,0 +1,12 @@
+streamlit
+streamlit-navigation-bar
+pandas
+matplotlib
+unidecode
+numpy
+requests
+beautifulsoup4
+lxml
+
+
+
