@@ -1,7 +1,3 @@
-Voici une version **en anglais, sans emojis**, avec le crédit pour le CSS ajouté :
-
----
-
 # Streamlit Scraping App – Version 0.0
 
 Welcome to **Streamlit Scraping App**, a simple and intuitive application that allows you to:
@@ -14,7 +10,7 @@ Welcome to **Streamlit Scraping App**, a simple and intuitive application that a
 
 This is **version 0.0**, the first public and functional version of the app.
 
----
+
 
 ## Main Features
 
@@ -44,7 +40,7 @@ This is **version 0.0**, the first public and functional version of the app.
   * KoboToolbox
 * Immediate redirection via buttons
 
----
+
 
 ## Installation
 
@@ -70,7 +66,7 @@ streamlit run apps/app_2/app.py
 > The main script is located at:
 > **apps/app_2/app.py**
 
----
+
 
 ## Project Structure
 
@@ -87,7 +83,7 @@ streamlit_scrap_data_app/
 │── README.md
 ```
 
----
+
 
 ## SQLite Database
 
@@ -113,7 +109,7 @@ All dependencies are listed in:
 requirements.txt
 ```
 
----
+
 
 ## Contributions
 
@@ -125,7 +121,7 @@ Contributions are welcome to:
 
 Open an *issue* or *pull request*.
 
----
+
 
 ## License
 
